@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/mynav.css" rel="stylesheet" />
+<link href="css/all.css" rel="stylesheet" />
+<link href="css/Panel.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container container-fluid1">
+ <nav class="navbar navbar-expand-sm navbar-dark " style="height: 70px;">
+<!--<div class="container-fluid container-fluid2">-->
+<div class="navbar-header">
+    <a href="#" class="navbar-brand">
+        <img src="images/logoR.jpg" class="img-fluid" alt="Alternate Text" /><!--style="vertical-align:baseline" width="40"-->
+    </a>
+</div>
+<button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+    <span class="navbar-toggler-icon text-white"></span>
+</button>
+            <div id="myNavbar" class="collapse navbar-collapse">
+    <ul class="navbar-nav text-center">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">tutorials</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">ContactUs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">AboutUs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+        <!--<li class="nav-item"><a href="#" class="nav-link">SignUp</a></li>-->
+        <li class="nav-item">
+            <a href="#" data-toggle="modal" data-target="#myModal" class="nav-link">
+                <i class="fas fa-sign-in-alt"></i> &nbsp; LogIn
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!--</div>-->
+</nav>
+
+<!--start carousel-->
+<div class="carousel slide" id="mycarousel">
+<div class="carousel-inner">
+    <div class="carousel-item active" data-interval="2000">
+        <img src="images/domenico-loia-310197-unsplash.jpg" alt=" " />
+
+    </div>
+    <div class="carousel-item" data-interval="3000">
+        <img src="images/benjamin-child-17946-unsplash.jpg" alt="" />
+        <div class="carousel-caption">
+            <h3>Add Captions to Slides</h3>
+            <p>We had such a great time in LA!</p>
+        </div>
+    </div>
+    <div class="carousel-item" data-interval="3000">
+        <img src="images/christopher-gower-291246-unsplash.jpg" alt=" " />
+
+    </div>
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#mycarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#mycarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#mycarousel" data-slide-to="1"></li>
+        <li data-target="#mycarousel" data-slide-to="2"></li>
+    </ul>
+</div>
+</div>
+<!--end carousel-->
+</div>
+
+<!--Modal-->
+<div class="modal fade" data-backdrop="static" id="myModal">
+    <div class="modal-dialog " style="width:350px;">
+        <div class="modal-content" style="margin-top: 110px; border: 1px solid #25a984;">
+            <!-- Modal Header -->
+            <!--<div class="modal-header">
+                <h5 class="modal-title">LogIn</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>-->
+            <!-- Modal body -->
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <img src="images/avatar.png" class="avatar rounded-circle" alt="" width="90" style="border: 3px solid #25a984; margin-top: -70px;" />
+                            <!--<h6 style="color: #25a984;">LogIn Form</h6>-->
+                        </div>
+                        &nbsp;
+                        <div class="col-md-12" >
+
+                            <form >
+
+                                <!--<label for="" style="opacity: 0.5">UserName :</label>-->
+                                <div class="form-group input-group">
+                                    <span class=" input-group-addon "><i class="fas fa-user"></i></span>&nbsp;&nbsp;&nbsp;
+                                    <input type="text" placeholder="Username" class="form-control" style="opacity: 0.4">
+                                </div>
+                                <!--<label for="" style="opacity: 0.5">Password :</label>-->
+                                <div class="form-group input-group">
+                                    <span class="input-group-addon"><i class="fas fa-lock"></i></span> &nbsp;&nbsp;&nbsp;
+                                    <input type="text" placeholder="Password" class="form-control " style="opacity: 0.4">
+                                </div>
+
+                                <div class="checkbox">
+                                    <label for="">
+                                        <input type="checkbox">
+                                        Remeber Me?
+                                    </label>
+                                </div>
+                                <div class="user-buttons" > 
+                                    <button type="button" class="btn btn-success btn-sm p-1" style="width:260px;">Log In</button>
+
+                                </div>
+                                <!--<hr>
+                                <p>Don't have an account? <a href="RegPage.html">Sign Up here</a></p>-->
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <p style="font-size:smaller;">Don't have an account? &nbsp;<a href="RegPage.html" style="font-size:medium;">Sign Up</a></p>
+                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--End Modal-->
+    <br />
+    <!--Content-->
+
+    <div class="container ">
+         <div class="row">
+            <div class="col-md-3">
+                <!--<div class="panel panel-default">
+                    <div class="panel-heading">Panel Heading</div>
+                    <div class="panel-body">Panel Content</div>
+                </div>-->
+                <!--<div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2><i class="far fa-comments"></i> 122</h2>
+                        <h4>Comments</h4>
+                    </div>
+                    <div class="panel-footer">
+                        <a href="">View details<i class="far fa-arrow-alt-circle-right pull-right"></i></a>
+                    </div>
+                </div>-->
+            </div>
+            <!--<div class="col-md-3">
+                <div class="panel panel-success ">
+                    <div class="panel-heading">
+                        <h2><i class="fas fa-tasks">133</i></h2>
+                        <h4>Tasks</h4>
+                    </div>
+                    <div class="panel-footer">
+                        <a href="">View details<i class="far fa-arrow-alt-circle-right pull-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel">
+                    <div class="panel-heading"></div>
+                    <div class="panel-body"></div>
+                    <div class="panel-footer">
+                        <a href="">View details<i class="far fa-arrow-alt-circle-right pull-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel">
+                    <div class="panel-heading"></div>
+                    <div class="panel-body"></div>
+                    <div class="panel-footer">
+                        <a href="">View details<i class="far fa-arrow-alt-circle-right pull-right"></i></a>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+    <!--end content-->
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

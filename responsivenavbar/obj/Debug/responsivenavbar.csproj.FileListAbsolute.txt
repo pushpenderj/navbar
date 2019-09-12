@@ -1,0 +1,6 @@
+E:\mycoding\Bootstrap Coding\responsivenavbar\responsivenavbar\bin\responsivenavbar.dll.config
+E:\mycoding\Bootstrap Coding\responsivenavbar\responsivenavbar\bin\responsivenavbar.dll
+E:\mycoding\Bootstrap Coding\responsivenavbar\responsivenavbar\bin\responsivenavbar.pdb
+E:\mycoding\Bootstrap Coding\responsivenavbar\responsivenavbar\obj\Debug\responsivenavbar.csprojResolveAssemblyReference.cache
+E:\mycoding\Bootstrap Coding\responsivenavbar\responsivenavbar\obj\Debug\responsivenavbar.dll
+E:\mycoding\Bootstrap Coding\responsivenavbar\responsivenavbar\obj\Debug\responsivenavbar.pdb

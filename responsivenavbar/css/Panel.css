@@ -1,0 +1,20 @@
+.panelcontainer .row .panel-primary .panel-heading h2{
+    font-size: 70px;
+}
+.panelcontainer .row .panel-primary .panel-heading h4{
+    text-align: right;
+    margin-right:35px;
+}
+
+.panelcontainer .row .panel-success .panel-heading{
+    background-color: #95c0b3;
+    color:#fff;
+}
+.panelcontainer .row .panel-success .panel-heading h2{
+    font-size: 70px;
+    text-align: center;
+}
+.panelcontainer .row .panel-success .panel-heading h4{
+    text-align: right;
+    margin-right:75px;
+}
